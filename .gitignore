@@ -1,4 +1,4 @@
 .ipynb_checkpoints/*
 distilbert*/
 .idea/
-
+git_setup.sh

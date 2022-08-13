@@ -53,7 +53,7 @@ print(tokenizer.decode(output[0]))
 
 
 def log_probs_from_logits(logits, labels):
-    logp = F.softmax(logits, dim=-1)
+    logp = F.log_softmax(logits, dim=-1)
     logp_label = torch.gather(logp, dim=2, index=labels.unsqueeze(2)).squeeze(-1)
     return logp_label
 
