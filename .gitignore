@@ -1,4 +1,5 @@
 .ipynb_checkpoints/*
 distilbert*/
+pegasus-samsum/
 .idea/
 git_setup.sh
